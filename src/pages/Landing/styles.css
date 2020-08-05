@@ -1,0 +1,273 @@
+#page-landing {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    background: #F8F8F8;
+}
+
+.page-logo {
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid #9A60FA;
+    border-radius: 0.8rem;
+    background: #FFFFFF;
+    font: 700 2rem Roboto;
+    color: #9A60FA;
+}
+
+.head-profile {
+    margin-top: 2rem;
+}
+
+.head-profile .head-img-profile {
+    display: flex;
+    width: 100%;
+    height: 36rem;
+    border-radius: 0.8rem;
+    background: rgba(96, 0, 255, 0.4);
+}
+
+.head-profile .head-img-profile img {
+    flex: initial;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.8rem;
+}
+
+.head-content-profile {
+    display: block;
+}
+
+.head-saudacao {
+    margin-top: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-saudacao p {
+    font: 400 3rem Roboto;
+}
+
+.head-saudacao strong {
+    font: 700 3rem Roboto;
+}
+
+.head-contato {
+    margin-top: 4rem;
+    padding: 1rem;
+    align-items: center;
+    justify-self: center;
+    border: 1px solid #9A60FA;
+    border-radius: 0.8rem;
+    background: #FFFFFF;
+}
+
+.head-contato .contate {
+    margin-top: -3rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    background: #9A60FA;
+    font: 700 2rem Roboto;
+    color: #FFFFFF;
+}
+
+.head-contato .contate-content {
+    margin-top: 2rem;
+    font: 400 1.6rem Roboto;
+}
+
+.head-contato .contate-content img {
+    width: 5rem;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.head-contato .contate-content p {
+    margin-top: 1rem;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-contato .contate-content p a {
+    font: 700 1.6rem Roboto;
+    color: #000000;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.about-content{
+    margin-top: 4rem;
+    padding: 1rem;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    border: 1px solid #9A60FA;
+    border-radius: 0.8rem;
+    background: #FFFFFF;
+}
+
+.education-container {
+    margin-top: 4rem;
+    padding: 1rem;
+    align-items: center;
+    justify-self: center;
+    border: 1px solid #9A60FA;
+    border-radius: 0.8rem;
+    background: #FFFFFF;
+}
+
+.education-container .education-head {
+    margin-top: -3rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    background: #9A60FA;
+    font: 700 2rem Roboto;
+    color: #FFFFFF;
+}
+
+.education-container .education-content {
+    margin-top: 2rem;
+    font: 400 1.6rem Roboto;
+} 
+.education-container .education-content h2 {
+    font: 700 2.5rem Roboto;
+    color: #9A60FA;
+}
+.education-container .education-content p {
+    font: 400 1.5rem Roboto;
+}
+
+.education-container .education-content p + p {
+    font: 700 1.3rem Roboto;
+}
+
+.education-container .education-content span {
+    font: 700 1.2rem Roboto;
+}
+
+.contribuition-container {
+    margin-top: 4rem;
+    padding: 1rem;
+    align-items: center;
+    justify-self: center;
+    border: 1px solid #9A60FA;
+    border-radius: 0.8rem;
+    background: #FFFFFF;
+}
+
+.contribuition-container .contribuition-head {
+    margin-top: -3rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    background: #9A60FA;
+    font: 700 2rem Roboto;
+    color: #FFFFFF;
+}
+
+.contribuition-container .contribuition-content {
+    margin-top: 1.2rem;
+    font: 400 1.6rem Roboto;
+}
+
+.contribuition-container .contribuition-content > p {
+    text-align: center;
+}
+
+.gitItens {
+    margin-top: 1.2rem;
+    padding: 1rem;
+    text-align: left;
+    border: 1px solid #9A60FA;
+    border-radius: 0.8rem;
+    background: #F2F2F2;
+}
+
+.gitItens p {
+    font: 700 1.6rem Roboto;
+}
+
+.gitItens span {
+    font-style: italic;
+}
+
+
+.footer{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-content{
+    width: 100%;
+    padding: 3rem;
+    border-top: 1px solid #9A60FA;
+}
+
+@media(min-width: 1100px) {
+    #page-landing {
+        background-image: url('../../assets/images/back-network.png');
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: right;
+    }
+
+    #page-landing-content {
+        max-width: 1100px;
+    }
+
+    .head-content {
+        display: grid;        
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            "contProf contProf profi"
+    }
+    .page-logo {
+        width: 16rem;
+    }
+
+    .head-saudacao {
+        display: block;
+        margin-left: 2rem;
+        text-align: left;
+    }
+
+    .head-content-profile {
+        display: block;
+        grid-area: contProf;
+        width: 90%;
+        align-self: end;
+    }
+
+    .head-contato .contate-content > p {
+        display: block;
+        margin-left: 2rem;
+        text-align: left;
+    }
+
+    .head-profile {
+        grid-area: profi;
+    }
+
+    .about-content {
+        display: block;
+        text-align: left;
+    }
+
+    .about-content p + p {
+        margin-top: 2rem;
+    }
+
+    
+}
