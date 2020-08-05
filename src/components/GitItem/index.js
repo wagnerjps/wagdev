@@ -1,10 +1,14 @@
 import React from 'react'
 
-const GitItem = () => {
+import './styles.css'
+
+const GitItem = ({title, language, stargazers}) => {
+    language = (!language) ? 'varidadas' : language
+    stargazers = (!stargazers) ? '0' : stargazers
     return(
         <div className="gitItens">
-            <p>wagnerjps/projeto</p>
-            <span>Idioma: JavaScript / Estrelas: 0</span>
+            <p>{title}</p>
+            <span>Idioma: {language} / Estrelas: {stargazers}</span>
         </div>
     )
 }
