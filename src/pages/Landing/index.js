@@ -119,7 +119,7 @@ class Landing extends Component {
                         <div className="footer-content">
                             <p>Tecnologias envolvidas neste projeto: <strong>NodeJS</strong>,{' '}
                             <strong>React</strong>, <strong>HTML</strong> e <strong>CSS</strong></p> 
-                            <p>Desenvolvido por <strong>Wagner Silva</strong></p>
+                            <p>Desenvolvido por: <strong>Wagner Silva</strong> - 2020</p>
                         </div>
                     </div>
                     
