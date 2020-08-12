@@ -213,6 +213,8 @@
         background-repeat: no-repeat;
         background-size: auto;
         background-position: right;
+
+
     }
 
     #page-landing-content {
@@ -271,6 +273,11 @@
     .about-content {
         display: block;
         text-align: left;
+        padding: 2.3rem;
+    }
+
+    .education-content {
+        padding: 1rem;
     }
 
     .about-content p + p {
