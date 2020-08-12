@@ -81,8 +81,8 @@ class Landing extends Component {
                         e também tenho uma boa perspectiva sobre marketing, produto, UX e visão dele.</p>
                         <p>A WagDev é um projeto de uma agência de desenvolvimento voltada para
                         aplicações Web e é um sonho meu em que estou trabalhando para torná-la
-                        Realidade. A ideai é ter qualidade, velocidade e desempenho nas aplicações e
-                        ajudar nosso clientes com soluções préticas, utilizando o que há as tecnologias
+                        Realidade. A ideia é ter qualidade, velocidade e desempenho nas aplicações e
+                        ajudar nosso clientes com soluções práticas, utilizando o que há as tecnologias
                         mais novas e arrojadas do mercado.</p>
                     </div>
 
@@ -117,7 +117,9 @@ class Landing extends Component {
 
                     <div className="footer">
                         <div className="footer-content">
-                        Desenvolvido por Wagner Silva
+                            <p>Tecnologias envolvidas neste projeto: <strong>NodeJS</strong>,{' '}
+                            <strong>React</strong>, <strong>HTML</strong> e <strong>CSS</strong></p> 
+                            <p>Desenvolvido por <strong>Wagner Silva</strong></p>
                         </div>
                     </div>
                     
